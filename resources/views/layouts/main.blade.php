@@ -9,5 +9,5 @@
     </div>
     <!-- Footer Content Start -->
     @yield('footer-content.blade.php')
-    <!-- Footer Content Start -->
+    <!-- Footer Content Start Extra-code-->
 @include('assets.footer-tags')

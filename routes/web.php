@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name(name:'index');
 
 Route::get('/404', function () {
     return view('404');
@@ -23,4 +23,12 @@ Route::get('/404', function () {
 
 Route::get('/sign-up', function () {
     return view('sign-up');
-})->name(name:'sign-up');;
+})->name(name:'sign-up');
+
+Route::get('/sign-in', function () {
+    return view('sign-in');
+})->name(name:'sign-in');
+
+Route::get('/blank-page', function () {
+    return view('blank-page');
+})->name(name:'Blank-Page');
